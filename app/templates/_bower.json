@@ -1,0 +1,23 @@
+{
+  "name": "<%= projectName %>",
+  "version": "0.0.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    ".ignore",
+    "test"
+  ],
+  "dependencies": {
+    "jquery": "~2.x",
+    "bootstrap": "~3.x",
+    "requirejs": "~2.x"
+  },
+  "devDependencies": {
+    "mocha": "~1.x",
+    "expect": "~0.3.x",
+    "sinon": "http://sinonjs.org/releases/sinon-1.9.1.js"
+  }
+}
+
